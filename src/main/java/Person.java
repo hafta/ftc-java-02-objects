@@ -19,7 +19,7 @@ class Person {
         dude.printName();
         sweet.printName();
 
-        // No we're are creating an array (like a list) of 3 Person
+        // Now we're creating an array (like a list) of 3 Person
         Person[] peeps = new Person[3];
 
         // To access each Person slot in peeps, we use [<number>] format.
