@@ -28,8 +28,8 @@ class Person {
         peeps[2] = new Person("The Goat");
 
         // Now we will call printName() for all the Persons in peeps
-        for (Person peep: peeps) {
-            peep.printName();
+        for (int i = 0; i < peeps.length; i++) {
+            peeps[i].printName();
         }
     }
 }
